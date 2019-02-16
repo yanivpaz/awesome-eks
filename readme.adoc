@@ -57,7 +57,7 @@ toc::[]
 
 === Ingress
 * https://itnext.io/kubernetes-ingress-controllers-how-to-choose-the-right-one-part-1-41d3554978d2[ Nginx ingress vs AWS alb ingress]
-* https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0 [ Ingress vs NodePort] 
+* https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0[ Ingress vs NodePort] 
 
 === Route53 integration 
 * https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md[ external DNS] 
@@ -93,7 +93,7 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/[ Building a Data Processing Pipeline with Amazon Kinesis Data Streams and Kubeless]
 
 === Tips and tricks
-* https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0 [Ingress tips]
+* https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0[ Ingress tips]
 
 === Additional resources 
 * https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html[ Docker AMI ]
