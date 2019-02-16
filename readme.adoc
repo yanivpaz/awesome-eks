@@ -20,7 +20,7 @@ master infrastructure connecting into your AWS account for the worker nodes.
 @christopherhein has already done a great job at curating a thorough list of
 https://github.com/christopherhein/awesome-eks [Awesome EKS ] but the list contains mainly links to AWS blogs. 
 This list is intended to be community list for deploying EKS on AWS .
-I also included special section to cover important aspects of K8s on AWS . 
+I also included "Additional resources" to cover interesting aspects of K8s on AWS . 
 
 == Lists
 
@@ -30,9 +30,11 @@ toc::[]
 * https://aws.amazon.com/documentation/eks/[AWS Documentation]
 
 === Setup 
-* aws quick start 
-* https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[eksctl: Amazon EKS Cluster with One Command]
+* https://aws.amazon.com/about-aws/whats-new/2019/02/deploy-a-kubernetes-cluster-using-amazon-eks-with-new-quick-start/[EKS quick start] 
+* https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[eksctl: Amazon EKS Cluster with one command]
 
+=== Roadmap 
+* https://github.com/AWS/containers-roadmap?fbclid=IwAR2x5OoC7SSFbtWVKLkGOsSpYvz-YaAXodx6O4hPq3oVzuwZzBWsO8pwt8M[ EKS roadmap ]
 
 === Networking
 * https://docs.aws.amazon.com/eks/latest/userguide/eks-networking.html[Amazon EKS Networking]
@@ -46,18 +48,17 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/[Getting Started with Istio on Amazon EKS]
 
 === CI/CD
-* Jenkins pipeline with helm
-* JenkinX
+* https://aws.amazon.com/blogs/opensource/continuous-delivery-eks-jenkins-x/[JenkinX and EKS]
 
 === Security
-* iam roles for pods 
+* https://docs.google.com/document/d/1rn-v2TNH9k4Oz-VuaueP77ANE5p-5Ua89obK2JaArfg/mobilebasic[IAM roles for pods]
 * https://aws.amazon.com/blogs/opensource/integrating-ldap-ad-users-kubernetes-rbac-aws-iam-authenticator-project/[Integrating LDAP/AD Users to Kubernetes RBAC with the AWS-IAM-Authenticator Community Project]
 
 === Ingress
-* nginx ingress vs aws alb ingress 
+* https://itnext.io/kubernetes-ingress-controllers-how-to-choose-the-right-one-part-1-41d3554978d2 [Nginx ingress vs AWS alb ingress] 
 
 === Route53 integration 
-* external DNS 
+* https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md[external DNS] 
 
 === Creating AWS resources from EKS 
 * https://github.com/awslabs/aws-service-operator/issues/137[AWS service operator vs AWS service broker]
@@ -65,8 +66,19 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
 
 === Videos
-* Reinvent 2018 - Mastering EKS
-* Reinvent 2018 - EKS Deep Dive 
+* https://www.youtube.com/watch?v=8OPkt93WyPA[Reinvent 2018 - Mastering Kubernetes on AWS] 
+* https://www.youtube.com/watch?v=EDaGpxZ6Qi0[Reinvent 2018 - Deep Dive on Amazon EKS ]
+* https://www.youtube.com/watch?v=OwGaqD-XeVQ[AWS contribution to open source]
+
+=== ECR
+* https://github.com/GoogleContainerTools/jib/blob/master/jib-maven-plugin/README.md[Pushing to ECR using jib]
+
+=== Helm repository
+* https://andrewlock.net/how-to-create-a-helm-chart-repository-using-amazon-s3/[Helm chart on S3]
+* https://github.com/app-registry/appr-helm-plugin[Helm registry on Quay - soon on dockerhub and ECR?]
+
+=== Training 
+* https://eksworkshop.com/[EKS workshop]
 
 === Service Discovery
 * https://aws.amazon.com/blogs/opensource/unified-service-discovery-ecs-kubernetes/[Unified Service Discovery with Amazon ECS and Kubernetes]
@@ -78,19 +90,20 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/kubeflow-amazon-eks/[Kubeflow on Amazon EKS]
 * https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/[Building a Data Processing Pipeline with Amazon Kinesis Data Streams and Kubeless]
 
-===
-* ECR with jib 
-
-=== Training 
-* Eks workshop 
+=== Tips and tricks
+* https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0 [Ingress tips]
 
 === Additional resources 
-* Docker alternatives 
-* Crio as docker and containerd replacement 
-* Helm addons 
+* https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html[ Docker AMI ]
+* https://opensource.com/article/18/12/sed-sdockercontainersg[Docker alternatives]
+* http://crunchtools.com/competition-heats-up-between-cri-o-and-containerd-actually-thats-not-a-thing/[Crio as docker and containerd replacement]
+* https://opensource.com/article/18/12/sed-sdockercontainersg[Helm tools]
+* https://github.com/kubernetes/community/blob/master/icons/README.md [Kubernetes icons set]
+* https://github.com/helm/charts/tree/master/stable/minio[Drop in replacement for AWS S3 in your own environment]
 
 === Twitter Accounts
 * @christopherhein
+* @arungupta
 
 == Contributors
 * @pazyaniv
