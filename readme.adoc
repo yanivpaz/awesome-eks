@@ -98,13 +98,14 @@ toc::[]
 * https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0[ Ingress tips]
 
 === Additional resources 
-* https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html[ Docker AMI ]
-* https://opensource.com/article/18/12/sed-sdockercontainersg[ Docker alternatives]
 * http://crunchtools.com/competition-heats-up-between-cri-o-and-containerd-actually-thats-not-a-thing/[ Crio as docker and containerd replacement]
+* https://opensource.com/article/18/12/sed-sdockercontainersg[ Docker alternatives]
 * https://opensource.com/article/18/12/sed-sdockercontainersg[ Helm tools]
 * https://github.com/kubernetes/community/blob/master/icons/README.md[ Kubernetes icons set]
 * https://github.com/helm/charts/tree/master/stable/minio[ Drop in replacement for AWS S3 in your own environment]
 * https://github.com/lachie83/croc-hunter?fbclid=IwAR17MJRiqDvJuYMPXHpWXl2UHNNGsggdpoLZkkw-Rq228LCjJXfLR2J13Wc[ CI/CD on K8s demo ]
+* https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html[ Docker AMI ]
+
 
 === Twitter Accounts
 * @christopherhein
