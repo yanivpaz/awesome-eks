@@ -34,7 +34,7 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[ eksctl: Amazon EKS Cluster with one command]
 
 === Roadmap 
-* https://github.com/AWS/containers-roadmap?fbclid=IwAR2x5OoC7SSFbtWVKLkGOsSpYvz-YaAXodx6O4hPq3oVzuwZzBWsO8pwt8M[ EKS roadmap ]
+* https://github.com/AWS/containers-roadmap?fbclid=IwAR2x5OoC7SSFbtWVKLkGOsSpYvz-YaAXodx6O4hPq3oVzuwZzBWsO8pwt8M[ ֿAWS containers roadmap ]
 
 === Networking
 * https://docs.aws.amazon.com/eks/latest/userguide/eks-networking.html[ Amazon EKS Networking]
