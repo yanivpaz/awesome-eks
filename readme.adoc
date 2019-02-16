@@ -61,9 +61,10 @@ toc::[]
 * https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md[ external DNS] 
 
 === Creating AWS resources from EKS 
+* https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[ AWS service operator 🚀]
+* https://github.com/awslabs/aws-servicebroker/tree/master/docs[ AWS service broker]
 * https://github.com/awslabs/aws-service-operator/issues/137[ AWS service operator vs AWS service broker]
 * https://blog.byte.builders/post/the-case-for-appbinding/[ The case for app binding]   
-* https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[ AWS Service Operator for Kubernetes Now Available 🚀]
 
 === Videos
 * https://www.youtube.com/watch?v=8OPkt93WyPA[Reinvent 2018 - Mastering Kubernetes on AWS] 
