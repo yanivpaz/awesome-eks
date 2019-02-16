@@ -58,7 +58,7 @@ toc::[]
 * https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0[ Ingress vs NodePort] 
 
 === Route53 integration 
-* https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md[ external DNS] 
+* https://github.com/kubernetes-incubator/external-dns/blob/master/docs/tutorials/aws.md[ External DNS] 
 
 === Creating AWS resources from EKS 
 * https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[ AWS service operator 🚀]
