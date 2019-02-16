@@ -17,11 +17,10 @@ master infrastructure connecting into your AWS account for the worker nodes.
 
 == Justification
 
-@ramitsurana has already done a great job at curating a thorough list of
-https://github.com/ramitsurana/awesome-kubernetes[Awesome Kubernetes] with EKS
-it includes some subtle differences since you cannot run anything on top of the
-managed masters. This means things like the dashboard need to be customized to
-run without a stitch.
+@christopherhein has already done a great job at curating a thorough list of
+https://github.com/christopherhein/awesome-eks [Awesome EKS ] but the list contains mainly links to AWS blogs. 
+This list is intended to be community list for deploying EKS on AWS .
+I also included special section to cover important aspects of K8s on AWS . 
 
 == Lists
 
@@ -30,12 +29,10 @@ toc::[]
 === Getting Started
 * https://aws.amazon.com/documentation/eks/[AWS Documentation]
 
-=== Operations
+=== Setup 
+* aws quick start 
 * https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[eksctl: Amazon EKS Cluster with One Command]
-* https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html[Terraform Getting Started with AWS EKS]
 
-=== Kubernetes Dashboard
-* https://docs.aws.amazon.com/eks/latest/userguide/dashboard-tutorial.html[Deploy the Kubernetes Web UI (Dashboard)]
 
 === Networking
 * https://docs.aws.amazon.com/eks/latest/userguide/eks-networking.html[Amazon EKS Networking]
@@ -49,11 +46,27 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/[Getting Started with Istio on Amazon EKS]
 
 === CI/CD
-* https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/[Git Push to Deploy Your App on EKS]
-* https://go.cloudbees.com/docs/cloudbees-documentation/install-cje/eks-install/[CloudBees Jenkins Enterprise on Amazon EKS]
+* Jenkins pipeline with helm
+* JenkinX
 
 === Security
+* iam roles for pods 
 * https://aws.amazon.com/blogs/opensource/integrating-ldap-ad-users-kubernetes-rbac-aws-iam-authenticator-project/[Integrating LDAP/AD Users to Kubernetes RBAC with the AWS-IAM-Authenticator Community Project]
+
+=== Ingress
+* nginx ingress vs aws alb ingress 
+
+=== Route53 integration 
+* external DNS 
+
+=== Creating AWS resources from EKS 
+* AWS service operator vs AWS service broker [https://github.com/awslabs/aws-service-operator/issues/137]
+* Bindings consideration    
+* https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
+
+=== Videos
+* Reinvent 2018 - Mastering EKS
+* Reinvent 2018 - EKS Deep Dive 
 
 === Service Discovery
 * https://aws.amazon.com/blogs/opensource/unified-service-discovery-ecs-kubernetes/[Unified Service Discovery with Amazon ECS and Kubernetes]
@@ -65,16 +78,19 @@ toc::[]
 * https://aws.amazon.com/blogs/opensource/kubeflow-amazon-eks/[Kubeflow on Amazon EKS]
 * https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/[Building a Data Processing Pipeline with Amazon Kinesis Data Streams and Kubeless]
 
-=== Operators
-* https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/[AWS Service Operator for Kubernetes Now Available 🚀]
+===
+* ECR with jib 
 
-=== Videos
-* https://www.youtube.com/watch?v=WHTejF3W0s4[AWS re:Invent 2017: Introducing Amazon EKS (CON215)]
-* https://www.youtube.com/watch?v=vrYLrx-a_Wg[AWS re:Invent 2017: Deep Dive into Amazon EKS (CON409)]
+=== Training 
+* Eks workshop 
+
+=== Additional resources 
+* Docker alternatives 
+* Crio as docker and containerd replacement 
+* Helm addons 
 
 === Twitter Accounts
-*
+* @christopherhein
 
 == Contributors
-
-* @christopherhein
+* @pazyaniv
