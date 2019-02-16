@@ -20,7 +20,7 @@ master infrastructure connecting into your AWS account for the worker nodes.
 @christopherhein has already done a great job at curating a thorough list of
 https://github.com/christopherhein/awesome-eks [Awesome EKS ] but the list contains mainly links to AWS blogs. 
 This list is intended to be community list for deploying EKS on AWS .
-I also included "Additional resources" to cover interesting aspects of K8s on AWS . 
+I also included "Additional resources" to cover additional K8s interesting aspects  . 
 
 == Lists
 
