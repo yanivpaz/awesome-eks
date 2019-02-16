@@ -33,8 +33,6 @@ toc::[]
 * https://aws.amazon.com/about-aws/whats-new/2019/02/deploy-a-kubernetes-cluster-using-amazon-eks-with-new-quick-start/[ EKS quick start] 
 * https://aws.amazon.com/blogs/opensource/eksctl-eks-cluster-one-command/[ eksctl: Amazon EKS Cluster with one command]
 
-=== Roadmap 
-* https://github.com/AWS/containers-roadmap?fbclid=IwAR2x5OoC7SSFbtWVKLkGOsSpYvz-YaAXodx6O4hPq3oVzuwZzBWsO8pwt8M[ ֿAWS containers roadmap ]
 
 === Networking
 * https://docs.aws.amazon.com/eks/latest/userguide/eks-networking.html[ Amazon EKS Networking]
@@ -91,6 +89,9 @@ toc::[]
 === Machine Learning
 * https://aws.amazon.com/blogs/opensource/kubeflow-amazon-eks/[ Kubeflow on Amazon EKS]
 * https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/[ Building a Data Processing Pipeline with Amazon Kinesis Data Streams and Kubeless]
+
+=== Roadmap 
+* https://github.com/AWS/containers-roadmap?fbclid=IwAR2x5OoC7SSFbtWVKLkGOsSpYvz-YaAXodx6O4hPq3oVzuwZzBWsO8pwt8M[ ֿAWS containers roadmap ]
 
 === Tips and tricks
 * https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0[ Ingress tips]
