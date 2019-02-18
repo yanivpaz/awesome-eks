@@ -78,6 +78,9 @@ toc::[]
 * https://andrewlock.net/how-to-create-a-helm-chart-repository-using-amazon-s3/[ Helm chart on S3]
 * https://github.com/app-registry/appr-helm-plugin[Helm registry on Quay - soon on dockerhub and ECR?]
 
+=== Canary keys
+* https://thenewstack.io/perform-canary-deployments-with-aws-app-mesh-on-amazon-eks/[ Canary upgrade"
+
 === Training 
 * https://eksworkshop.com/[ EKS workshop]
 
