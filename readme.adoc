@@ -44,6 +44,7 @@ toc::[]
 * https://medium.com/@alejandro.millan.frias/cluster-autoscaler-in-amazon-eks-d9f787176519[ Cluster autoscaler]
 
 === Service Mesh
+* https://thenewstack.io/perform-canary-deployments-with-aws-app-mesh-on-amazon-eks/[AWS App Mesh with EKS]
 * https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/[ Getting Started with Istio on Amazon EKS]
 
 === CI/CD
