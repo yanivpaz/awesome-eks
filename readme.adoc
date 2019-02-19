@@ -57,6 +57,7 @@ toc::[]
 === Ingress
 * https://itnext.io/kubernetes-ingress-controllers-how-to-choose-the-right-one-part-1-41d3554978d2[ Nginx ingress vs AWS ALB ingress]
 * https://itnext.io/save-on-your-aws-bill-with-kubernetes-ingress-148214a79dcb[ Nginx as AWS ALB alternative ]
+* https://kubernetes-sigs.github.io/aws-alb-ingress-controller/guide/controller/how-it-works/[AWS ALB - instance mode vs ip mode]
 * https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0[ Ingress vs NodePort] 
 
 === Route53 integration 
