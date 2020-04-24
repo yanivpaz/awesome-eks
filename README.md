@@ -15,7 +15,7 @@
 * https://github.com/aws/amazon-eks-pod-identity-webhook
 
 # EKS CI 
-* tool used by EKS to test multiple regions 
+* tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
 
 # OLD Awsome EKS 
