@@ -18,5 +18,8 @@
 * tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
 
+# AWS stash - EKS Videos
+* https://awsstash.com/?search=%22eks%22
+
 # OLD Awsome EKS 
 * https://github.com/yanivpaz/awesome-eks 
