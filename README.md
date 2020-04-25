@@ -11,18 +11,21 @@
 # Workshop
 * https://eksworkshop.com/
 
+# Roadmap 
+* https://github.com/aws/containers-roadmap/projects/1?card_filter_query=eks
+
 # OIDC explained 
 * https://github.com/aws/amazon-eks-pod-identity-webhook
 
 # Create custom AMI
 * https://aws.amazon.com/premiumsupport/knowledge-center/eks-custom-linux-ami/
 
+# AWS stash - EKS Videos
+* https://awsstash.com/?search=%22eks%22
+
 # CFN CI tool
 * tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
-
-# AWS stash - EKS Videos
-* https://awsstash.com/?search=%22eks%22
 
 # OLD Awsome EKS 
 * https://github.com/yanivpaz/awesome-eks 
