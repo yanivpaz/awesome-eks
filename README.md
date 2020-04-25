@@ -23,6 +23,9 @@
 # AWS stash - EKS Videos
 * https://awsstash.com/?search=%22eks%22
 
+# AWS samples 
+* https://github.com/aws-samples?q=eks&type=&language=
+
 # CFN CI tool
 * tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
