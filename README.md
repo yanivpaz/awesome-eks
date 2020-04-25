@@ -14,6 +14,9 @@
 # OIDC explained 
 * https://github.com/aws/amazon-eks-pod-identity-webhook
 
+# Create custom AMI
+* https://aws.amazon.com/premiumsupport/knowledge-center/eks-custom-linux-ami/
+
 # CFN CI tool
 * tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
