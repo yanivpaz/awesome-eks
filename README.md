@@ -11,8 +11,11 @@
 # Workshop
 * https://eksworkshop.com/
 
-# Roadmap 
-* https://github.com/aws/containers-roadmap/projects/1?card_filter_query=eks
+# CNI Metric helper
+* https://docs.aws.amazon.com/eks/latest/userguide/cni-metrics-helper.html
+
+# CSI 
+* https://github.com/kubernetes-sigs/aws-ebs-csi-driver/
 
 # OIDC explained 
 * https://github.com/aws/amazon-eks-pod-identity-webhook
@@ -29,6 +32,9 @@
 # CFN CI tool
 * tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
+
+# Roadmap 
+* https://github.com/aws/containers-roadmap/projects/1?card_filter_query=eks
 
 # OLD Awsome EKS 
 * https://github.com/yanivpaz/awesome-eks 
