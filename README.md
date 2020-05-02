@@ -6,10 +6,10 @@
 
 # Quick start
 * https://github.com/aws-quickstart/quickstart-amazon-eks/blob/master/SUBMODULE_README.md
-* CFN templates : https://github.com/aws-quickstart/quickstart-amazon-eks/tree/master/templates
+* Quick start CFN templates : https://github.com/aws-quickstart/quickstart-amazon-eks/tree/master/templates
 
-# Workshop
-* https://eksworkshop.com/
+# Custom AMI
+* https://aws.amazon.com/premiumsupport/knowledge-center/eks-custom-linux-ami/
 
 # CNI Metric helper
 * https://docs.aws.amazon.com/eks/latest/userguide/cni-metrics-helper.html
@@ -20,21 +20,27 @@
 # OIDC explained 
 * https://github.com/aws/amazon-eks-pod-identity-webhook
 
-# Create custom AMI
-* https://aws.amazon.com/premiumsupport/knowledge-center/eks-custom-linux-ami/
-
 # AWS stash - EKS Videos
 * https://awsstash.com/?search=%22eks%22
 
-# AWS samples 
+# EKS repos in aws-samples 
 * https://github.com/aws-samples?q=eks&type=&language=
 
 # CFN CI tool
 * tool used by EKS to test multiple regions  
   https://github.com/aws-quickstart/quickstart-taskcat-ci
 
+# Workshop
+* https://eksworkshop.com/
+
 # Roadmap 
 * https://github.com/aws/containers-roadmap/projects/1?card_filter_query=eks
+
+# Cloudformation worker templates
+* run the following command
+```
+aws s3 ls s3://amazon-eks/cloudformation
+```
 
 # OLD Awsome EKS 
 * https://github.com/yanivpaz/awesome-eks 
