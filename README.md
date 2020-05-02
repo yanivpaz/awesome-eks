@@ -1,5 +1,7 @@
 # User guide
-* https://docs.aws.amazon.com/eks/latest/userguide/eks-ug.pdf
+* https://docs.aws.amazon.com/eks/index.html
+* or pdf version : https://docs.aws.amazon.com/eks/latest/userguide/eks-ug.pdf
+ 
 
 # User guide history 
 * https://docs.aws.amazon.com/eks/latest/userguide/doc-history.html
