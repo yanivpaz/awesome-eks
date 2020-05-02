@@ -2,13 +2,15 @@
 * https://docs.aws.amazon.com/eks/index.html
 * or pdf version : https://docs.aws.amazon.com/eks/latest/userguide/eks-ug.pdf
  
-
 # User guide history 
 * https://docs.aws.amazon.com/eks/latest/userguide/doc-history.html
 
 # Quick start
 * https://github.com/aws-quickstart/quickstart-amazon-eks/blob/master/SUBMODULE_README.md
 * Quick start CFN templates : https://github.com/aws-quickstart/quickstart-amazon-eks/tree/master/templates
+
+# EKS addons
+* https://github.com/yanivpaz/yanivpaz.github.io/blob/master/_posts/markdowns/eks-posts-deployment.md
 
 # Custom AMI
 * https://aws.amazon.com/premiumsupport/knowledge-center/eks-custom-linux-ami/
